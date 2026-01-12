@@ -1,5 +1,3 @@
-
-
 type ILogoProps = {
   xl?: boolean;
 };

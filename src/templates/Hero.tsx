@@ -37,11 +37,7 @@ const Hero = (props: IHeroProps) => (
 
     <Section id="about" className="scroll-mt-40" yPadding="pt-32 pb-32">
       <HeroOneButton
-        title={
-          <>
-            {/* Heading removed */}
-          </>
-        }
+        title={<>{/* Heading removed */}</>}
         description="At “Cilantro™” we believe in the ideology of Service and Quality. It is for this reason alone, we have imbibed the latest specifications followed by the EU (European Union), along with all the necessary specifications of our local authorities, thus bringing out the absolute best in standards for packaged drinking water."
         button={
           <Link href="#process">

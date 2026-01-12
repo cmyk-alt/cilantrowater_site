@@ -19,7 +19,7 @@ const Base = () => {
       <div className="bg-gradient-to-b from-gray-50 to-primary-100">
         <Hero hideLogo={!introDone} />
       </div>
-      <div className="bg-gradient-to-b from-white to-primary-50">
+      <div className="to-primary-50 bg-gradient-to-b from-white">
         <VerticalFeatures />
       </div>
       <div id="contact" className="bg-primary-100">

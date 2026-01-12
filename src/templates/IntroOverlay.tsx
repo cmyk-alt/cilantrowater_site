@@ -33,7 +33,7 @@ const IntroOverlay = (props: IIntroOverlayProps) => {
       }`}
     >
       <div
-        className={`relative flex h-full w-full flex-col items-center justify-center transition-transform duration-700 ${
+        className={`relative flex size-full flex-col items-center justify-center transition-transform duration-700 ${
           animate ? '-translate-y-full scale-50' : 'translate-y-0 scale-100'
         }`}
       >
@@ -47,19 +47,19 @@ const IntroOverlay = (props: IIntroOverlayProps) => {
             style={{ maxHeight: '60vh' }}
           />
         </div>
-        
+
         {/* Scroll Prompt Arrow - Absolute position relative to viewport/container, pushed low */}
         <div className="absolute bottom-8 animate-bounce">
-          <svg 
-            className="size-12 text-primary-500" 
-            fill="none" 
-            strokeLinecap="round" 
-            strokeLinejoin="round" 
-            strokeWidth="3" 
-            viewBox="0 0 24 24" 
+          <svg
+            className="size-12 text-primary-500"
+            fill="none"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="3"
+            viewBox="0 0 24 24"
             stroke="currentColor"
           >
-            <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+            <path d="M19 14l-7 7m0 0l-7-7m7 7V3" />
           </svg>
         </div>
       </div>
