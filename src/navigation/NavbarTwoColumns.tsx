@@ -17,7 +17,7 @@ const NavbarTwoColumns = (props: INavbarProps) => (
       <Link href="/">{props.logo}</Link>
     </div>
 
-    <nav>
+    <nav className="ml-auto">
       <ul className="navbar flex items-center text-lg font-medium text-gray-800">
         {props.children}
       </ul>

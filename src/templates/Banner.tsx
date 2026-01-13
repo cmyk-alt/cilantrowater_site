@@ -12,7 +12,7 @@ const Banner = () => (
           <p>Plot No. R-680,</p>
           <p>Rabale MIDC,</p>
           <p>Navi Mumbai - 400701</p>
-          <p className="mt-2">Email: nyasa.cilantro@cilantrowater.com</p>
+          <p className="mt-2">Email: nyasa.cilantro@gmail.com</p>
           <p className="mt-2 text-sm font-bold">GSTIN: 27AACCN7104K1ZF</p>
         </div>
       }
